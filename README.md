@@ -3,6 +3,9 @@ Proyecto del desarrollo de una aplicación movil donde se encuentre todos los se
 
 Pasos para desarrollar esta aplicación:
 #
+javac 1.8.0_181
+android-studio/bin/studio.sh
+
 --buscar el entornos más preciso para esta app
 #
 -- aprender a manejar el entorno
