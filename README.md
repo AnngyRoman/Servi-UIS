@@ -3,8 +3,11 @@ Proyecto del desarrollo de una aplicación movil donde se encuentre todos los se
 
 Pasos para desarrollar esta aplicación:
 
--- buscar el entornos más preciso para esta app
+--buscar el entornos más preciso para esta app
+#
 -- aprender a manejar el entorno
+#
 -- estucturar la aplicación
--- organizar como se desarrollara el proyecto por fases
+#
+--organizar como se desarrollara el proyecto por fases
 
