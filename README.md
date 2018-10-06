@@ -1,16 +1,8 @@
 # Servi-UIS
-Proyecto del desarrollo de una aplicación movil donde se encuentre todos los servicio que ofrese la UIS para diferentes usuarios como estudiantes, empleados y particulares.
+Desarrollo de un aplicativo movil que encuentre todos los servicio que ofrese la UIS para diferentes usuarios como estudiantes, empleados y particulares.
 
-Pasos para desarrollar esta aplicación:
-#
-javac 1.8.0_181
-android-studio/bin/studio.sh
+..descargar android-studio, optimizarlo
 
---buscar el entornos más preciso para esta app
-#
--- aprender a manejar el entorno
-#
--- estucturar la aplicación
-#
---organizar como se desarrollara el proyecto por fases
+-- linea para abrir el programa por terminal: android-studio/bin/studio.sh
+
 
