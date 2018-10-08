@@ -10,3 +10,17 @@ conectamos el móvil al ordenador, abrimos una terminal y tecleamos:
 $~ lsusb -v.
 Hemos de obtener dos códigos, USB Vendor ID y el ID del modelo, Idproduct.
 
+Una vez sabemos los ID que necesitamos, abrimos el archivo que hemos creado previamente. Para entornos Gnome usamos Gedit, 
+para entornos KDE, Kate, para entornos Xfce, Mousepad. O podemos usar Vi que es multientorno. Aunque nada impide que en Gnome 
+usemos Kate por ejemplo, sólo que no vendrá de serie. Una vez escogido el editor de texto, abrimos el archivo de marras:
+
+$~sudo Gedit /etc/rules.d/51-android.rules
+
+Se nos abrirá una ventana con el archivo en blanco, dentro pegamos lo siguiente:
+SUBSYSTEMS==”usb”, ATTRS{idVendor}==”xxxx”, ATTRS{idProduct}==”yyyy”, MODE=”0666″, OWNER=”nombre de la cuenta de usuario”
+
+Cerramos la ventana (guardamos) y reiniciamos el ordenador.Abrimos una terminal y nos vamos hasta una carpeta concreta 
+$~ cd /home/byangier/Android/Sdk/platform-tools  #esto es en ubuntu
+$~./adb devices.
+
+Si nos indica el terminal que detecta, tecleamos exit y cerramos la terminal.
