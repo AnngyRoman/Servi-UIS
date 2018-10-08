@@ -1,0 +1,12 @@
+
+
+En primer lugar debemos crear un archivo en donde colocaremos los drivers
+
+$~ sudo touch /etc/udev/rules.d/51-android.rules
+
+$~sudo chmod a+rx /etc/udev/rules.d/51-android.rules
+
+conectamos el móvil al ordenador, abrimos una terminal y tecleamos:
+$~ lsusb -v.
+Hemos de obtener dos códigos, USB Vendor ID y el ID del modelo, Idproduct.
+
